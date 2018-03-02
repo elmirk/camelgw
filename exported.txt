@@ -1,0 +1,16 @@
+{
+    extern "C"
+    {
+	camelgw_cli;
+	__camelgw_cli_register_multiple;
+       CAMELGW_invoke_continue;
+       CAMELGW_invoke_continue2;
+       CAMELGW_invoke_releasecall;		
+       CAMELGW_invoke_ActivityTest;
+       CAMELGW_vpn_invoke_connect;
+	camelgw_dnc_remove7;
+	CAMELGW_invoke_triplet;
+	INTU_change_state;
+	INTU_send_close;	
+    };
+};

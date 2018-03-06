@@ -49,6 +49,7 @@ int bootstrap_tnt_idphandlers_space(char **services, char **idp_handlers)
 	tnt_stream_free(tnt);
 	return 0;
 }
+
 void *camelgw_tnt_select(const char *str)
 {
 
